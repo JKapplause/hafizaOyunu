@@ -1,0 +1,110 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Hafıza Kart Oyunu</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Slackey" rel="stylesheet">
+    <link rel="stylesheet" href="HafizaOyunu.css">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Hafiza Kartı Oyunu</h1>
+    </header>
+
+    <section class="score-panel">
+        <ul class="stars">
+            <li><i class=""></i></li>
+            <li><i class=""></i></li>
+            <li><i class=""></i></li>
+        </ul>
+
+        <div class="movesCounter"><span class="moves">3</span> Toplam Hareket</div>
+
+        <div class="timer"> </div>
+
+        <div class="restart">
+            <i class="fa fa-repeat"></i>
+        </div>
+    </section>
+
+    <ul class="deck">
+        <li class="card">
+            <i class='fas fa-dragon'></i>
+        </li>
+        <li class="card">
+            <i class='fas fa-horse-head'></i>
+        </li>
+        <li class="card">
+            <i class='fas fa-feather'></i>
+        </li>
+        <li class="card">
+            <i class='fas fa-cat'></i>
+        </li>
+        <li class="card">
+            <i class='fas fa-hippo'></i>
+        </li>
+        <li class="card">
+            <i class='fas fa-feather'></i>
+        </li>
+        <li class="card">
+            <i class='fas fa-fish'></i>
+        </li>
+        <li class="card">
+            <i class='fas fa-paw'></i>
+        </li>
+        <li class="card">
+            <i class='fas fa-dragon'></i>
+        </li>
+        <li class="card">
+            <i class='fas fa-crow'></i>
+        </li>
+        <li class="card">
+            <i class='fas fa-fish'></i>
+        </li>
+        <li class="card">
+            <i class='fas fa-crow'></i>
+        </li>
+        <li class="card">
+            <i class='fas fa-cat'></i>
+        </li>
+        <li class="card">
+            <i class='fas fa-paw'></i>
+        </li>
+        <li class="card">
+            <i class='fas fa-horse-head'></i>
+        </li>
+        <li class="card">
+            <i class='fas fa-hippo'></i>
+        </li>
+    </ul>
+
+    <div class="modal">
+        <div class="modal-content">
+            <div class="icon">
+                <img class="checkmark" src="img/animat-checkmark-color.gif">
+            </div>
+
+            <span class="end-msg"> Tebrikler! </span>
+
+            <p class='stats'> </p>
+
+            <button id="ok"> Tamam </button>
+
+            <button id="play-again"> Tekrar Oyna </button>
+
+        </div>
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
